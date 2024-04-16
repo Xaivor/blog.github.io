@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a2 as n}from"./chunks/framework.BdMTL_bU.js";const F=JSON.parse('{"title":"JS 部分","description":"","frontmatter":{},"headers":[],"relativePath":"knowledge/js.md","filePath":"knowledge/js.md"}'),h={name:"knowledge/js.md"},l=n("",58),k=[l];function p(t,e,E,r,d,g){return a(),i("div",null,k)}const c=s(h,[["render",p]]);export{F as __pageData,c as default};

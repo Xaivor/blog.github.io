@@ -5,6 +5,7 @@ import juejin from "../icon/juejin"
 
 export default defineConfig({
   title: "路漫漫其修远兮 - Xaivor",
+  base: '/blog/',
   description: "个人博客",
   themeConfig: {
     nav: [
