@@ -76,3 +76,10 @@ React 组件的生命周期是指组件从创建到销毁的过程，它包括�
 
 ### 卸载阶段
 - `componentWillUnmount`：在组件从 DOM 中移除时调用，用于执行一些清理操作，如取消订阅事件、清除定时器等。
+
+
+## 6. useMemo、React.memo、useCallback区别 ⭐
+`useMemo` 和 `React.memo` 都是 React 中的性能优化工具，但它们的作用和用法上有些区别。
+- `useMemo`：用于在组件渲染时计算某个值，并将计算结果缓存起来，避免在每次渲染时重新计算。
+- `React.memo`：用于优化组件的渲染，当组件的 props 没有变化时，避免重新渲染。
+- `useCallback`：用于在组件渲染时缓存某个函数，避免在每次渲染时重新创建函数。
