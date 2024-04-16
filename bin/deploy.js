@@ -9,5 +9,5 @@ shelljs.exec(`git init`)
 shelljs.exec(`git add -A`)
 shelljs.exec(`git commit -m 'chore:deploy'`)
 
-shelljs.exec(`git push -f https://github.com:Xaivor/blog.git master`)
+shelljs.exec(`git push -f https://github.com/Xaivor/blog.git master`)
 shelljs.exec(`echo 'Deploy Success...'`);
