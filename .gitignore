@@ -12,3 +12,5 @@ $RECYCLE.BIN/
 
 # Node.js
 node_modules/
+docs/.vitepress/cache
+docs/.vitepress/dist
