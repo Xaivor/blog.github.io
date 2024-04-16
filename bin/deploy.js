@@ -4,7 +4,7 @@ const shelljs = require('shelljs');
 // shelljs.exec(`npm run docs:build`)
 // shelljs.exec(`echo 'Pack is building Success..., is deploying...'`);
 
-shelljs.exec(`cd docs/.vuepress/dist`)
+shelljs.exec(`cd docs/.vitepress/dist`)
 shelljs.exec(`ls`)
 shelljs.exec(`git init`)
 shelljs.exec(`git add -A`)
