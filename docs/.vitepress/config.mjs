@@ -7,6 +7,9 @@ export default defineConfig({
   title: "路漫漫其修远兮 - Xaivor",
   base: '/blog/',
   description: "个人博客",
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+  ],
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
@@ -25,6 +28,7 @@ export default defineConfig({
         items: [
           { text: 'JS部分', link: '/knowledge/js' },
           { text: 'React部分', link: '/knowledge/react' },
+          { text: 'Vue部分', link: '/knowledge/vue' },
         ]
       }
     ],
