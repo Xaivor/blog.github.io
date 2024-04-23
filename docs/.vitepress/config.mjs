@@ -26,9 +26,9 @@ export default defineConfig({
       {
         text: '基础知识',
         items: [
-          { text: 'JS部分', link: '/knowledge/js' },
-          { text: 'React部分', link: '/knowledge/react' },
-          { text: 'Vue部分', link: '/knowledge/vue' },
+          { text: 'JS 部分', link: '/knowledge/js' },
+          { text: 'React 部分', link: '/knowledge/react' },
+          { text: 'Vue 部分', link: '/knowledge/vue' },
         ]
       }
     ],
