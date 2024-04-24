@@ -11,7 +11,7 @@ hero:
       text: 快速了解我
       link: /me/resume
     - theme: alt
-      text: 基础知识
+      text: 前端基础
       link: /knowledge/js
 
 features:

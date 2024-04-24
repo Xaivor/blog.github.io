@@ -13,7 +13,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '基础知识', link: '/knowledge/js' },
+      { text: '前端基础', link: '/knowledge/js' },
     ],
 
     sidebar: [
@@ -24,7 +24,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '基础知识',
+        text: '前端基础',
         items: [
           { text: 'JS 部分', link: '/knowledge/js' },
           { text: 'React 部分', link: '/knowledge/react' },
@@ -45,6 +45,10 @@ export default defineConfig({
           svg: csdn
         },
         link: 'https://blog.csdn.net/weixin_43759645?type=blog'
+      },
+      {
+        icon: 'github',
+        link: 'https://github.com/Xaivor'
       }
     ],
   }

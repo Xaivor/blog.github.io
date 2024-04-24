@@ -16,8 +16,10 @@ shelljs.mkdir(`${distPath}/.github/workflows`)
 shelljs.cp('bin/static.yml', `${distPath}/.github/workflows`)
 
 // 提交到github
-shelljs.exec(`cd docs-dist && git init && git add -A && git commit -m 'chore:deploy' && git push -f ${githubUrl} master:docs`)
+shelljs.exec(`cd ${distPath} && git init && git add -A && git commit -m 'chore:deploy' && git push -f ${githubUrl} master:docs`)
 shelljs.exec(`echo 'Deploy Docs Success...'`);
+
+shelljs.exec(`sleep 3 && echo 'Delete dist...'`);
 
 // 删除dist文件夹
 shelljs.rm('-rf', distPath);
