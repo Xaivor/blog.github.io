@@ -1,6 +1,6 @@
-# React 部分
+# React
 
-下面是常见的 `React` 基础问题：
+下面是常见的 `React` 知识点：
 
 ## 1. React 中的 Fiber 架构 ⭐
 
